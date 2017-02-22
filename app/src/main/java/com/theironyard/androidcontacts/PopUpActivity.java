@@ -13,8 +13,6 @@ public class PopUpActivity extends AppCompatActivity implements View.OnClickList
     TextView contact;
     Button remove;
     Button cancel;
-    String contactName;
-    boolean removeal = false;
 
     public PopUpActivity(String contact){
 
