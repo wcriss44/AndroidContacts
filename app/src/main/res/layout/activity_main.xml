@@ -31,7 +31,7 @@
                 android:ems="10"
                 android:id="@+id/nameText"
                 android:layout_weight="1"
-                tools:text="Name" />
+                android:hint="Name" />
 
             <EditText
                 android:layout_width="0dp"
@@ -40,7 +40,7 @@
                 android:ems="10"
                 android:id="@+id/phoneText"
                 android:layout_weight="1"
-                tools:text="Phone #" />
+                android:hint="Phone #" />
 
             <Button
                 android:text="Add"
