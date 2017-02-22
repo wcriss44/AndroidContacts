@@ -19,12 +19,6 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true">
 
-        <ListView
-            android:layout_width="match_parent"
-            android:layout_height="406dp"
-            android:layout_weight="1.50"
-            android:id="@+id/listView" />
-
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
@@ -54,6 +48,11 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/addButton" />
         </LinearLayout>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="375dp"
+            android:id="@+id/listView" />
 
     </LinearLayout>
 </RelativeLayout>
